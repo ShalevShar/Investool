@@ -21,9 +21,7 @@
 Investool is a mobile application designed for users interested in real-time financial data. It provides a user-friendly interface to monitor and analyze stocks, currencies, commodities, and cryptocurrencies.
 
 ## Home Page
-<p align="center">
-  ![ref1](https://github.com/ShalevShar/Investool/assets/127881894/23b76ba0-787a-410b-b665-245ded80df29)
-</p>
+![ref1](https://github.com/ShalevShar/Investool/assets/127881894/23b76ba0-787a-410b-b665-245ded80df29)
 
 
 ## Layouts XML
