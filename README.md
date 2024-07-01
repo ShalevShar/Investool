@@ -22,7 +22,8 @@ Investool is a mobile application designed for users interested in real-time fin
 
 ## Home Page
 <p align="center">
-![ref1](https://github.com/ShalevShar/Investool/assets/127881894/59475cfc-a858-4902-b306-ba4ef676bdfa)</p>
+  ![ref1](https://github.com/ShalevShar/Investool/assets/127881894/23b76ba0-787a-410b-b665-245ded80df29)
+</p>
 
 
 ## Layouts XML
