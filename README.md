@@ -1,3 +1,6 @@
+<img width="244" alt="Screenshot 2024-07-01 at 18 59 01" src="https://github.com/ShalevShar/Investool/assets/127881894/15938232-0dba-4d4d-b2f8-b120bc3392fc">
+
+
 <a href="https://yourwebsite.com">
   <h1 align="center">
     <picture>
@@ -12,21 +15,19 @@
     Track live stocks, currencies, commodities, and cryptocurrencies with ease.
 </p>
 
-<p align="center">
-  <a title="Build Status" href="https://github.com/your/repository/actions?query=workflow%3ABuild"><img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/your/repository/build.yml?style=for-the-badge&label=Build&logoColor=fff&logo=GitHub%20Actions&branch=master"></a>
-  <a title="Discord Server" href="https://discord.gg/yourserver"><img alt="Discord Server" src="https://img.shields.io/discord/yourserverid?label=Discord&logo=Discord&logoColor=fff&style=for-the-badge"></a>
-  <a title="Total Downloads" href="https://github.com/your/repository/releases/latest"><img alt="Total Downloads" src="https://img.shields.io/github/downloads/your/repository/total?style=for-the-badge&label=Downloads&logoColor=fff&logo=GitHub"></a>
-  <a title="Code Quality" href="https://www.codefactor.io/repository/github/your/repository"><img alt="Code Quality" src="https://img.shields.io/codefactor/grade/github/your/repository?style=for-the-badge&label=Code%20Quality&logoColor=fff&logo=CodeFactor&branch=master"></a>
-</p>
-
 ## Overview
 
 Investool is a mobile application designed for users interested in real-time financial data. It provides a user-friendly interface to monitor and analyze stocks, currencies, commodities, and cryptocurrencies.
 
-## Screenshots
+## Home Page
+![ref1](https://github.com/ShalevShar/Investool/assets/127881894/59475cfc-a858-4902-b306-ba4ef676bdfa)
 
-![Screenshot 1](https://example.com/screenshot1.png)
-![Screenshot 2](https://example.com/screenshot2.png)
+## Layouts XML
+<img width="836" alt="Screenshot 2024-07-01 at 18 58 33" src="https://github.com/ShalevShar/Investool/assets/127881894/4237891f-3210-4d37-bee9-73df5db426be">
+<img width="592" alt="Screenshot 2024-07-01 at 18 58 13" src="https://github.com/ShalevShar/Investool/assets/127881894/388df82e-e25b-45b1-acd7-b42404194687">
+<img width="612" alt="Screenshot 2024-07-01 at 18 57 45" src="https://github.com/ShalevShar/Investool/assets/127881894/49c7321e-c7e3-4523-9594-1d833f9a226e">
+<img width="627" alt="Screenshot 2024-07-01 at 18 57 30" src="https://github.com/ShalevShar/Investool/assets/127881894/ed4b012c-98fe-43c1-bc4f-68f84ed19d84">
+<img width="599" alt="Screenshot 2024-07-01 at 18 57 13" src="https://github.com/ShalevShar/Investool/assets/127881894/d7fc9fb4-1a80-494b-9c35-42788d6b30cc">
 
 ## Features
 
@@ -91,3 +92,4 @@ Investool is a mobile application designed for users interested in real-time fin
 ### View
 
 - **CommodityAdapter, CryptocurrencyAdapter, CurrencyAdapter, FavoriteAdapter, StockAdapter**: Adapters for displaying data in UI components.
+![VIDEO-2024-03-11-10-52-43-ezgif com-video-to-gif-converter](https://github.com/ShalevShar/Investool/assets/127881894/6b8a02fe-e351-47d3-ba52-33ffbc8f4c85)
