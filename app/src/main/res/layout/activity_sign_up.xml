@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/investool_bg"
+    tools:context=".Activity.SignUpActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/signUp_IMG_logo"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/investool_logo"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/signUp_LBL_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="100sp"
+        android:layout_below="@id/signUp_IMG_logo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:textAllCaps="true"
+        android:fontFamily="@font/teko_regular"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/signUp_EDT_email"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:textColorHint="@color/dark_grey"
+        android:hint="email"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/teko_regular"
+        android:textColor="@color/dark_grey"
+        android:textSize="22sp"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/signUp_LBL_header"
+        android:layout_marginBottom="-80dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/signUp_EDT_username"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:textColorHint="@color/dark_grey"
+        android:hint="username"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/teko_regular"
+        android:textColor="@color/dark_grey"
+        android:textSize="22sp"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/signUp_EDT_email"
+        android:layout_marginBottom="-80dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/signUp_EDT_avatar"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:textColorHint="@color/dark_grey"
+        android:hint="avatar"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/teko_regular"
+        android:textColor="@color/dark_grey"
+        android:textSize="22sp"
+        android:background="@color/white"
+        android:layout_marginStart="86dp"
+        android:layout_alignBottom="@id/signUp_EDT_username"
+        android:layout_marginBottom="-80dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUp_BTN_confirm"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Confirm"
+        android:textSize="25sp"
+        android:fontFamily="@font/teko_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/signUp_EDT_avatar"
+        android:layout_marginBottom="-100dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/signUp_BTN_back"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="-140dp"
+        android:layout_alignBottom="@id/signUp_BTN_confirm"
+        android:src="@drawable/arrow"
+        android:background="@null"
+        android:scaleType="centerInside"/>
+
+</RelativeLayout>

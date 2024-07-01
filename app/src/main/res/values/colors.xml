@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_grey">#111111</color>
+    <color name="box_grey">#222222</color>
+    <color name="text_red">#a30000</color>
+    <color name="text_green">#017718</color>
+    <color name="icon_dark_grey">#393a3a</color>
+    <color name="icon_light_grey">#606060</color>
+    <color name="date_time">#00ff8a</color>
+</resources>

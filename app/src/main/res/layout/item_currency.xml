@@ -1,0 +1,136 @@
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/item_currency_pointer_green"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="-1dp"
+            android:paddingTop="100dp"
+            android:layout_alignLeft="@id/item_currency_layout"
+            android:background="@drawable/pointer_green"/>
+        <View
+            android:id="@+id/item_currency_pointer_red"
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="-1dp"
+            android:paddingTop="100dp"
+            android:layout_alignLeft="@id/item_currency_layout"
+            android:background="@drawable/pointer_red"/>
+
+        <LinearLayout
+            android:id="@+id/item_currency_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="15dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_currency_exchange"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Exchange"
+                android:layout_marginEnd="7dp"
+                android:fontFamily="@font/teko_regular"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_currency_intraday_bid"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Intraday Bid"
+                android:layout_marginEnd="-11dp"
+                android:fontFamily="@font/teko_regular"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_currency_intraday_ask"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Intraday Ask"
+                android:gravity="end"
+                android:fontFamily="@font/teko_regular"
+                android:textSize="12sp"
+                android:textColor="@android:color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/item_currency_intraday_change"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Intraday Change"
+                android:gravity="end"
+                android:layout_marginEnd="2dp"
+                android:fontFamily="@font/teko_regular"
+                android:textSize="12sp"
+                android:textColor="@android:color/white" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/item_currency_intraday_percentChange"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="% Change"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="-15dp"
+                    android:fontFamily="@font/teko_regular"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/white" />
+
+                <View
+                    android:id="@+id/item_currency_intraday_percent_arrow_up"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="-10.3dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignRight="@id/item_currency_intraday_percentChange"
+                    android:background="@drawable/arrow_up" />
+                <View
+                    android:id="@+id/item_currency_intraday_percent_arrow_down"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignRight="@id/item_currency_intraday_percentChange"
+                    android:background="@drawable/arrow_down" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/item_currency_BTN_addFavorite"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@id/item_currency_intraday_percent_arrow_down"
+                android:background="@drawable/add_favorite_btn" />
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/item_currency_BTN_removeFavorite"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="-15dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@id/item_currency_intraday_percent_arrow_down"
+                android:background="@drawable/remove_favorite_btn" />
+            </LinearLayout>
+
+    </RelativeLayout>
+</HorizontalScrollView>

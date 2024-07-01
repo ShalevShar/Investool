@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+    <!-- Your options here -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/baseline_person_2_24"
+        android:layout_toLeftOf="@id/dialog_LBL_name"
+        android:layout_above="@id/dialog_LBL_role"
+        android:layout_marginBottom="10dp"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialog_LBL_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:fontFamily="@font/teko_regular"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/dialog_LBL_role"
+        android:layout_marginBottom="10dp"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialog_LBL_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role"
+        android:fontFamily="@font/teko_regular"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/dialog_LBL_email"
+        android:layout_marginBottom="40dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialog_LBL_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:fontFamily="@font/teko_regular"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/dialog_LBL_avatar"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dialog_LBL_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avatar"
+        android:fontFamily="@font/teko_regular"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btn_logout"
+        android:layout_marginBottom="70dp"/>
+
+    <!-- Logout button -->
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/teko_regular"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="Logout"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+
+</RelativeLayout>

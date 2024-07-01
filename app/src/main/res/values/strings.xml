@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Investool</string>
+    <string name="base_url">http://172.20.10.2:8085</string>
+    <string name="defaultRole">MINIAPP_USER</string>
+    <string name="type">FAVORITE</string>
+    <string name="superapp">2024a.omri.chen.yosef</string>
+    <string name="miniapp_key_email">miniapp@gmail.com</string>
+    <string name="user_approver_key">a1eb0de2-f3f4-42d9-894d-1d98ae495d18</string>
+</resources>

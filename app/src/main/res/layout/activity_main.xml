@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/investool_bg"
+    tools:context=".Activity.MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/main_IMG_logo"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/investool_logo"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/teko_regular"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:text="local date and time"
+        android:textColor="@color/date_time"
+        android:textSize="25sp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/main_BTN_user"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@android:color/transparent"
+        android:src="@drawable/user_icon"
+        android:scaleType="centerInside" />
+
+    <!-- Stocks Section -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_stocks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stocks"
+        android:textSize="25sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:textAllCaps="true"
+        android:fontFamily="@font/teko_regular"/>
+
+    <View
+        android:id="@+id/main_line_stocks"
+        android:layout_width="300dp"
+        android:layout_height="1.5dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/main_LBL_stocks"
+        android:background="@android:color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_RCV_stocks"
+        android:layout_width="368dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/main_LBL_stocks"
+        android:layout_marginBottom="-160dp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_stroke_white"
+        android:clipToPadding="false"/>
+
+    <!-- Commodity Section -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_commodity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commodity"
+        android:textSize="25sp"
+        android:layout_below="@id/main_RCV_stocks"
+        android:layout_marginTop="166dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:textAllCaps="true"
+        android:fontFamily="@font/teko_regular"/>
+
+    <View
+        android:id="@+id/main_line_commodity"
+        android:layout_width="300dp"
+        android:layout_height="1.5dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/main_LBL_commodity"
+        android:background="@android:color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_RCV_commodity"
+        android:layout_width="368dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/main_line_commodity"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:background="@drawable/rounded_stroke_white"
+        android:clipToPadding="false"/>
+
+    <!-- Cryptocurrency Section -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_cryptocurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cryptocurrency"
+        android:textSize="25sp"
+        android:layout_below="@+id/main_RCV_commodity"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:textAllCaps="true"
+        android:fontFamily="@font/teko_regular"/>
+
+    <View
+        android:id="@+id/main_line_cryptocurrency"
+        android:layout_width="120dp"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/main_LBL_cryptocurrency"
+        android:background="@android:color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_RCV_cryptocurrency"
+        android:layout_width="177dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/main_line_cryptocurrency"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_stroke_white"
+        android:clipToPadding="false"
+        android:scrollbars="horizontal|vertical"/>
+
+    <!-- Currency Section -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:textSize="25sp"
+        android:layout_below="@+id/main_RCV_commodity"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="103dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:textAllCaps="true"
+        android:fontFamily="@font/teko_regular"/>
+
+    <View
+        android:id="@+id/main_line_currency"
+        android:layout_width="120dp"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/main_LBL_currency"
+        android:background="@android:color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_RCV_currency"
+        android:layout_width="177dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/main_line_currency"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:background="@drawable/rounded_stroke_white"
+        android:clipToPadding="false"/>
+
+    <!-- Favorites Section -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorites"
+        android:textSize="25sp"
+        android:layout_below="@id/main_RCV_cryptocurrency"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="4.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="4.5"
+        android:textAllCaps="true"
+        android:fontFamily="@font/teko_regular"/>
+
+    <View
+        android:id="@+id/main_line_favorites"
+        android:layout_width="335dp"
+        android:layout_height="1.5dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/main_LBL_favorites"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/main_line_favorites">
+
+        <!-- Favorite Views -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/main_fav_1"
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:layout_below="@id/main_LBL_favorites"
+            android:padding="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/rounded_stroke_white" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
