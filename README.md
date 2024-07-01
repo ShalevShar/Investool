@@ -1,5 +1,6 @@
-<img width="244" alt="Screenshot 2024-07-01 at 18 59 01" src="https://github.com/ShalevShar/Investool/assets/127881894/15938232-0dba-4d4d-b2f8-b120bc3392fc">
-
+<p align="center">
+  <img width="244" alt="Screenshot 2024-07-01 at 18 59 01" src="https://github.com/ShalevShar/Investool/assets/127881894/15938232-0dba-4d4d-b2f8-b120bc3392fc">
+</p>
 
 <a href="https://yourwebsite.com">
   <h1 align="center">
@@ -20,7 +21,9 @@
 Investool is a mobile application designed for users interested in real-time financial data. It provides a user-friendly interface to monitor and analyze stocks, currencies, commodities, and cryptocurrencies.
 
 ## Home Page
-![ref1](https://github.com/ShalevShar/Investool/assets/127881894/59475cfc-a858-4902-b306-ba4ef676bdfa)
+<p align="center">
+![ref1](https://github.com/ShalevShar/Investool/assets/127881894/59475cfc-a858-4902-b306-ba4ef676bdfa)</p>
+
 
 ## Layouts XML
 <img width="836" alt="Screenshot 2024-07-01 at 18 58 33" src="https://github.com/ShalevShar/Investool/assets/127881894/4237891f-3210-4d37-bee9-73df5db426be">
@@ -34,7 +37,6 @@ Investool is a mobile application designed for users interested in real-time fin
 - **Real-Time Data**: Stay updated with live feeds of financial markets.
 - **Customizable Watchlists**: Create personalized lists for easy tracking.
 - **Interactive Charts**: Visualize market trends with interactive graphs.
-- **Alerts and Notifications**: Set alerts for price changes and market news.
 
 ## Libraries Used
 
